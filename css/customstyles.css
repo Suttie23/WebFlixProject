@@ -1,0 +1,115 @@
+       /* Carousel styling */
+       
+       #introCarousel,
+       .carousel-inner,
+       .carousel-item,
+       .carousel-item.active {
+           height: 70vh;
+       }
+       
+       .carousel-item:nth-child(1) {
+           background-image: url('https://christianlind.com/wp-content/uploads/2016/03/mb-movies.jpg');
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-position: center center;
+       }
+       /* Height for devices larger than 576px */
+       
+       @media (min-width: 992px) {
+           #introCarousel {
+               margin-top: -70px;
+           }
+           #introCarousel,
+           .carousel-inner,
+           .carousel-item,
+           .carousel-item.active {
+               height: 70vh;
+           }
+       }
+       
+       .navbar .nav-link {
+           color: #fff !important;
+       }
+
+       /* Solid divider */   
+       hr.solid {
+           border-top: 5px solid #bbb;
+           margin-top: 0.01px;
+       }
+
+.modal { overflow-y: auto }
+
+.responsive-slick {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .slick-arrow.slick-prev {
+    left: 1%;
+    z-index: 1;
+  }
+  .slick-arrow.slick-next {
+    right: 1%;
+  }
+  
+  .slick-prev:before {
+    color: transparent;
+  }
+  
+  .slick-next:before {
+    color: transparent;
+  }
+  
+  .slick-prev:hover:before,
+  .slick-next:hover:before {
+    color: #ffffff;
+  }
+  
+  .slider-img {
+    width: 300px;
+    height: 175px;
+  }
+  
+  .slider-image:hover{
+    transition: .3s linear;
+    transform: scalex(1.2);
+  }
+  
+  .responsive-slick{
+    position: relative;
+    padding: 20px 0px 20px 0px 
+  }
+  
+  .responsive-slick .info {
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    max-height: 175px;
+    top: 0;
+    left: 0;
+    line-height: 100vh;
+    text-align: center;
+    z-index: 10;
+  }
+  
+  .responsive-slick .info .slider-heading {
+    transform: scalex(0.83);
+    opacity: 0;
+  }
+  
+  .responsive-slick .info:hover .slider-heading {
+    transform: scalex(0.83);
+    opacity: 1;
+  }
+  
+  .responsive-slick .info:hover{
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 1;
+  }
+  
+  .responsive-slick .info > div {
+    display: inline-block !important;
+    vertical-align: middle;
+  }
